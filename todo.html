@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="icon" type="image/svg" href = "Google_Tasks_2021.svg.png" >
+    <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+    <div class="container">
+        <div class="todo_head">
+            <div class="todo_stats">
+                <h1>Task Manager App</h1>
+                <h6 style="font-size: medium;">keep it up!</h6>
+                <div class="stats_bar">
+                    <div id="progressBar"></div>
+                </div>
+            </div>
+            <div class="stats_text">
+                <p id="numbers">start</p>
+            </div>
+        </div>
+
+        
+        <form id="todo-form">
+            <input type="text" id="todo-input" name="todo-input" placeholder="create task.." autocomplete="off">
+            <button type="submit" id="todo-submit">Add Task</button>
+            <button type="submit" id="clear-all">Clear All</button>
+        </form>
+
+        <ul id="todo-list"></ul>
+        
+    </div>
+    <script src="todo.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+</body>
+</html>
