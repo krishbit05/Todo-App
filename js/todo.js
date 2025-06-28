@@ -75,8 +75,8 @@ function updateTaskList(){
                 <p>${task.text}</p>
             </div>    
             <div class="task-icons">
-                <img src="edit.png" alt="Edit Task" onclick="editTask(${index})"/>
-                <img src="delete.png" alt="Delete Task" onclick="removeTask(${index})"/>
+                <img src="/assets/edit.png" alt="Edit Task" onclick="editTask(${index})"/>
+                <img src="/assets/delete.png" alt="Delete Task" onclick="removeTask(${index})"/>
             </div> 
         </div>`;
     
